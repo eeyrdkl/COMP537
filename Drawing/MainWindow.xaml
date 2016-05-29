@@ -1,0 +1,46 @@
+﻿<Window x:Class="Drawing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Drawing"
+        mc:Ignorable="d" Height="350" Width="525" WindowStartupLocation="CenterScreen" WindowState="Maximized" Title="UML Class Diagram Sketching Tool - Ekrem Emre Yurdakul" Icon="Icons/Draw.png">
+    <Grid>
+        <Border>
+            <InkCanvas x:Name="m_InkCanvas" Background="#FFF8FBB1" EditingMode="InkAndGesture" StrokeCollected="m_InkCanvas_StrokeCollected" Grid.RowSpan="2" Width="4000" Height="4000" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-3740,-3840,-3743,-3841">
+                <InkCanvas.DefaultDrawingAttributes>
+                    <DrawingAttributes Color="Black" FitToCurve="False" Height="5" IgnorePressure="False" IsHighlighter="False" StylusTip="Ellipse" StylusTipTransform="Identity" Width="5"/>
+                </InkCanvas.DefaultDrawingAttributes>
+                <InkCanvas.RenderTransform>
+                    <TransformGroup>
+                        <TranslateTransform x:Name="m_Translate"/>
+                        <ScaleTransform x:Name="m_Scale"/>
+                    </TransformGroup>
+                </InkCanvas.RenderTransform>
+            </InkCanvas>
+        </Border>
+        <Button VerticalAlignment="Bottom" Click="ExportButton_Click" Height="40" HorizontalAlignment="Center" Margin="265,269,212,10" Width="40">
+            <Image Source="Icons/Save.png"/>
+        </Button>
+        <Button HorizontalAlignment="Center" Margin="215,269,262,10" VerticalAlignment="Bottom" Click="EraserButton_Click" Width="40" Height="40">
+            <Image Source="Icons/Erase.png"/>
+        </Button>
+        <Button VerticalAlignment="Bottom" Height="40" Click="ClearInkCanvasButton_Click" HorizontalAlignment="Center" Margin="315,269,162,10" Width="40">
+            <Image Source="Icons/Clear.png"/>
+        </Button>
+        <Button VerticalAlignment="Bottom" Click="DrawingModeButton_Click" Height="40" HorizontalAlignment="Center" Margin="165,269,312,10" Width="40">
+            <Image Source="Icons/Draw.png"/>
+        </Button>
+        <StackPanel x:Name="m_Suggestions" HorizontalAlignment="Center" Height="100" Margin="178,0,129,69" VerticalAlignment="Bottom" Orientation="Horizontal" Width="210" Visibility="Hidden">
+            <Button Click="Button_Click">
+                <Image x:Name="m_B1" Stretch="Fill"/>
+            </Button>
+            <Button Click="Button_Click_1">
+                <Image x:Name="m_B2" Stretch="Fill"/>
+            </Button>
+            <Button Click="Button_Click_2">
+                <Image x:Name="m_B3" Stretch="Fill"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
