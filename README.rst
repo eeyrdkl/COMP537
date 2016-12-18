@@ -23,39 +23,14 @@ https://youtu.be/tXRMwprSzBM
 Annotations provide information when an action is taken.
 
 .. |draw| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/draw.png?raw=true
-		:width: 30px
-		:height: 30px
-
 .. |erase| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/erase.png?raw=true
-		:width: 30px
-		:height: 30px
-
 .. |handwriting| image:: https://i-msdn.sec.s-msft.com/dynimg/IC5936.gif
-		:width: 30px
-		:height: 30px
-
 .. |clear| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/clear.png?raw=true
-		:width: 30px
-		:height: 30px
-
 .. |save| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/save.png?raw=true
-		:width: 30px
-		:height: 30px
-
 .. |chevronup| image:: https://i-msdn.sec.s-msft.com/dynimg/IC100787.gif 
-		:width: 30px
-		:height: 30px
-
 .. |chevrondown| image:: https://i-msdn.sec.s-msft.com/dynimg/IC109874.gif 
-		:width: 30px
-		:height: 30px
-
 .. |chevronleft| image:: https://i-msdn.sec.s-msft.com/dynimg/IC137959.gif 
-		:width: 30px
-		:height: 30px
-
 .. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif
-		:width: 10
 
 Functionalities
 ---------------
@@ -91,26 +66,20 @@ Dataset
 There are three classes, each having 50 train and 10 test sketches at a resolution of 1440x2560 pixels.
 
 #) Class
-	.. image:: https://raw.githubusercontent.com/ekyurdakul/COMP537/master/docs/images/class.png
-		:width: 50px
-		:height: 50px
+	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/class.png?raw=true
 #) Implementation Arrow
 	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/implementation.png?raw=true
-		:width: 30px
-		:height: 50px
 #) Inheritance Arrow
 	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/inheritance.png?raw=true
-		:width: 30px
-		:height: 50px
 
 Implementation
 --------------
 
-- `HOG <https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients>`_ features extracted using `VLFeat <https://github.com/vlfeat/vlfeat/releases/tag/v0.9.20>`_ in MATLAB
-- Multi-class SVM with linear kernel trained using `LIBSVM <http://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab>`_ in MATLAB
-- Thread running in the background on the Windows Presentation Foundation (WPF) GUI written in C#
-	- When you complete a sketch, its class is predicted by sending data from C# to MATLAB
-	- Recognized sketch gets replaced by a predefined image
+| `HOG <https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients>`_ features extracted using `VLFeat <https://github.com/vlfeat/vlfeat/releases/tag/v0.9.20>`_ in MATLAB
+| Multi-class SVM with linear kernel trained using `LIBSVM <http://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab>`_ in MATLAB
+| Thread running in the background on the Windows Presentation Foundation (WPF) GUI written in C#
+|	When you complete a sketch, its class is predicted by sending data from C# to MATLAB
+|	Recognized sketch gets replaced by a predefined image
 
 Requirements
 ------------
