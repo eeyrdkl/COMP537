@@ -91,7 +91,7 @@ Dataset
 There are three classes, each having 50 train and 10 test sketches at a resolution of 1440x2560 pixels.
 
 #) Class
-	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/class.png?raw=true
+	.. image:: https://raw.githubusercontent.com/ekyurdakul/COMP537/master/docs/images/class.png
 		:width: 50px
 		:height: 50px
 #) Implementation Arrow
@@ -116,7 +116,7 @@ Requirements
 ------------
 - Visual Studio 2015 Community Edition
 - MATLAB
-	- LIBSVM_
+- LIBSVM_ for MATLAB
 - Windows 10
 
 References
