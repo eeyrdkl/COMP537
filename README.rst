@@ -22,19 +22,19 @@ https://youtu.be/tXRMwprSzBM
 
 Annotations provide information when an action is taken.
 
-.. |draw| image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/draw.png
+.. |draw| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/draw.png?raw=true
 		:width: 30px
 		:height: 30px
-.. |erase| image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/erase.png
+.. |erase| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/erase.png?raw=true
 		:width: 30px
 		:height: 30px
 .. |handwriting| image:: https://i-msdn.sec.s-msft.com/dynimg/IC5936.gif
 		:width: 30px
 		:height: 30px
-.. |clear| image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/clear.png
+.. |clear| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/clear.png?raw=true
 		:width: 30px
 		:height: 30px
-.. |save| image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/save.png
+.. |save| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/save.png?raw=true
 		:width: 30px
 		:height: 30px
 .. |chevronup| image:: https://i-msdn.sec.s-msft.com/dynimg/IC100787.gif 
@@ -82,15 +82,15 @@ Dataset
 There are three classes, each having 50 train and 10 test sketches at a resolution of 1440x2560 pixels.
 
 #) Class
-	.. image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/class.png
+	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/class.png?raw=true
 		:width: 50px
 		:height: 50px
 #) Implementation Arrow
-	.. image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/implementation.png
+	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/implementation.png?raw=true
 		:width: 30px
 		:height: 50px
 #) Inheritance Arrow
-	.. image:: https://github.com/ekyurdakul/COMP537/tree/master/docs/images/inheritance.png
+	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/inheritance.png?raw=true
 		:width: 30px
 		:height: 50px
 
