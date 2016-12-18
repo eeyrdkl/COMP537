@@ -23,23 +23,14 @@ https://youtu.be/tXRMwprSzBM
 Annotations provide information when an action is taken.
 
 .. |draw| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/draw.png?raw=true
-	:align: middle
 .. |erase| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/erase.png?raw=true
-	:align: middle
 .. |handwriting| image:: https://i-msdn.sec.s-msft.com/dynimg/IC5936.gif
-	:align: middle
 .. |clear| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/clear.png?raw=true
-	:align: middle
 .. |save| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/save.png?raw=true
-	:align: middle
 .. |chevronup| image:: https://i-msdn.sec.s-msft.com/dynimg/IC100787.gif 
-	:align: middle
 .. |chevrondown| image:: https://i-msdn.sec.s-msft.com/dynimg/IC109874.gif 
-	:align: middle
 .. |chevronleft| image:: https://i-msdn.sec.s-msft.com/dynimg/IC137959.gif 
-	:align: middle
 .. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif
-	:align: middle
 
 Functionalities
 ---------------
@@ -88,7 +79,7 @@ Implementation
 | Multi-class SVM with linear kernel trained using `LIBSVM <http://www.csie.ntu.edu.tw/~cjlin/libsvm/#matlab>`_ in MATLAB.
 | Thread running in the background on the Windows Presentation Foundation (WPF) GUI written in C#.
 | When you complete a sketch, its class is predicted by sending data from C# to MATLAB.
-| Recognized sketch gets replaced by a predefined image.
+| Recognized sketches get replaced by predefined images.
 
 Requirements
 ------------
