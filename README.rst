@@ -54,9 +54,8 @@ Annotations provide information when an action is taken.
 		:width: 30px
 		:height: 30px
 
-.. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif 
-		:width: 30%
-		:height: 30%
+.. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif
+		:width: 10
 
 Functionalities
 ---------------
