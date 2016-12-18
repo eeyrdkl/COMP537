@@ -53,10 +53,10 @@ Annotations provide information when an action is taken.
 .. |chevronleft| image:: https://i-msdn.sec.s-msft.com/dynimg/IC137959.gif 
 		:width: 30px
 		:height: 30px
-		
+
 .. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif 
-		:width: 15px
-		:height: 15px
+		:width: 30%
+		:height: 30%
 
 Functionalities
 ---------------
