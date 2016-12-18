@@ -25,30 +25,38 @@ Annotations provide information when an action is taken.
 .. |draw| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/draw.png?raw=true
 		:width: 30px
 		:height: 30px
+
 .. |erase| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/erase.png?raw=true
 		:width: 30px
 		:height: 30px
+
 .. |handwriting| image:: https://i-msdn.sec.s-msft.com/dynimg/IC5936.gif
 		:width: 30px
 		:height: 30px
+
 .. |clear| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/clear.png?raw=true
 		:width: 30px
 		:height: 30px
+
 .. |save| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/save.png?raw=true
 		:width: 30px
 		:height: 30px
+
 .. |chevronup| image:: https://i-msdn.sec.s-msft.com/dynimg/IC100787.gif 
 		:width: 30px
 		:height: 30px
+
 .. |chevrondown| image:: https://i-msdn.sec.s-msft.com/dynimg/IC109874.gif 
 		:width: 30px
 		:height: 30px
+
 .. |chevronleft| image:: https://i-msdn.sec.s-msft.com/dynimg/IC137959.gif 
 		:width: 30px
 		:height: 30px
+		
 .. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif 
-		:width: 30px
-		:height: 30px
+		:width: 15px
+		:height: 15px
 
 Functionalities
 ---------------
@@ -70,9 +78,11 @@ Functionalities
 	Chevron Right |chevronright|
 
 - Canvas Clearing |clear|
+	Clears everything.
 - Suggestions Tab
 	You can correct a misrecognition by clicking on a suggestion. Predicted probabilities decrease from left to right.
 - Image Export |save|
+	Save canvas as image.
 - Sketching Scale
 	The bigger you sketch, the bigger is the recognized sketch.
 
