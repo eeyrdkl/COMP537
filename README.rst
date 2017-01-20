@@ -1,10 +1,7 @@
 COMP 537 - Intelligent User Interfaces Term Project
 ===================================================
 
-UML Class Diagram Sketching Tool
-################################
-
-Recognizing user sketches to draw UML class diagrams.
+Implementation of a UML class diagram sketching tool, which recognizes user sketches.
 
 Index
 -----
