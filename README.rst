@@ -19,14 +19,14 @@ https://youtu.be/tXRMwprSzBM
 
 Annotations provide information when an action is taken.
 
-.. |draw| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/draw.png?raw=true
-.. |erase| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/erase.png?raw=true
+.. |draw| image:: docs/images/draw.png
+.. |erase| image:: docs/images/erase.png
 .. |handwriting| image:: https://i-msdn.sec.s-msft.com/dynimg/IC5936.gif
-.. |clear| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/clear.png?raw=true
-.. |save| image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/save.png?raw=true
-.. |chevronup| image:: https://i-msdn.sec.s-msft.com/dynimg/IC100787.gif 
-.. |chevrondown| image:: https://i-msdn.sec.s-msft.com/dynimg/IC109874.gif 
-.. |chevronleft| image:: https://i-msdn.sec.s-msft.com/dynimg/IC137959.gif 
+.. |clear| image:: docs/images/clear.png
+.. |save| image:: docs/images/save.png
+.. |chevronup| image:: https://i-msdn.sec.s-msft.com/dynimg/IC100787.gif
+.. |chevrondown| image:: https://i-msdn.sec.s-msft.com/dynimg/IC109874.gif
+.. |chevronleft| image:: https://i-msdn.sec.s-msft.com/dynimg/IC137959.gif
 .. |chevronright| image:: https://i-msdn.sec.s-msft.com/dynimg/IC40744.gif
 
 Functionalities
@@ -63,11 +63,11 @@ Dataset
 There are three classes, each having 50 train and 10 test sketches at a resolution of 1440x2560 pixels.
 
 #) Class
-	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/class.png?raw=true
+	.. image:: docs/images/class.png
 #) Implementation Arrow
-	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/implementation.png?raw=true
+	.. image:: docs/images/implementation.png
 #) Inheritance Arrow
-	.. image:: https://github.com/ekyurdakul/COMP537/blob/master/docs/images/inheritance.png?raw=true
+	.. image:: docs/images/inheritance.png
 
 Implementation
 --------------
@@ -88,7 +88,7 @@ Requirements
 References
 ----------
 
-.. [#] \C. Chang, C. Lin, LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology. 2:27:1–27:27. 2011. Software available at http://www.csie.ntu.edu.tw/~cjlin/libsvm.
+.. [#] \C. Chang, C. Lin. LIBSVM: A library for support vector machines. ACM Transactions on Intelligent Systems and Technology. 2:27:1–27:27. 2011. Software available at http://www.csie.ntu.edu.tw/~cjlin/libsvm.
 .. [#] \A. Vedaldi, B. Fulkerson. VLFeat: An Open and Portable Library of Computer Vision Algorithms. 2008. http://www.vlfeat.org
 .. [#] Microsoft Visual Studio Image Library. https://www.microsoft.com/en-us/download/details.aspx?id=35825
 .. [#] Microsoft Check Gesture Icon. https://i-msdn.sec.s-msft.com/dynimg/IC5936.gif
